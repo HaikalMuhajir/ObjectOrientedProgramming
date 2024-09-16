@@ -12,16 +12,9 @@ public class Koperasi {
             System.out.print("Masukkan Input :");
             input= sc.next();
             if(input.equalsIgnoreCase("pinjam")){
-                System.out.println("Limit Peminjaman : " + anggota1.getLimitPeminjaman());
-                System.out.print("Anda Pinjam Berapa : ");
-                double pinjam = sc.nextDouble();
-                anggota1.pinjam(pinjam);
+                anggota1.pinjam();
             } else if(input.equalsIgnoreCase("angsur")){
-                System.out.println("Jumlah Pinjaman : " + anggota1.getJumlahPinjaman());
-                System.out.println("Minimal Angsuran : " + anggota1.getJumlahPinjaman() * 0.10);
-                System.out.print("Anda Angsur Berapa : ");
-                double angsur = sc.nextDouble();
-                anggota1.angsur(angsur);
+                anggota1.angsur();
             } else {
                 System.out.println("Ketik PINJAM / ANGSUR / STOP");
             }
