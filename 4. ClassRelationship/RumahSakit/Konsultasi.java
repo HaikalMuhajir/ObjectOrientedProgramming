@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class Konsultasi {
     private LocalDate tanggal;
-    private Pegawai dokter, perawat;;
+    private Pegawai dokter, perawat;
 
     public void setTanggal(LocalDate tanggal) {
         this.tanggal = tanggal;
