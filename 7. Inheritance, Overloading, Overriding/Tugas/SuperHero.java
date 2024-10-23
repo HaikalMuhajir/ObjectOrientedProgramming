@@ -15,7 +15,7 @@ public class SuperHero extends Person {
 
     public String getPower() {
         return power;
-    }
+    } 
 
     public String getSuperHeroName() {
         return superHeroName;

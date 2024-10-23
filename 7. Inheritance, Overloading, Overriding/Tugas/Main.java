@@ -14,5 +14,5 @@ public class Main {
 
        System.out.println(batman.getInfo());
        System.out.println(captainAmerica.getInfo());
-    }
+    } 
 }
